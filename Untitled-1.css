@@ -93,8 +93,8 @@ background-size: 18%;
 }
 
 .transparent {
-    background-image: url(whttransp90.png);
-    color:black;
+    background-image: url("blktransp90.png");
+    color:white;
     padding:40px;
 }
     
@@ -107,3 +107,5 @@ background-size: 18%;
 .stripe{
     background-image: url("stripe.png")
 }
+
+.bottom{position:fixed;bottom:0;margin:0 66% 10px 10px;}
