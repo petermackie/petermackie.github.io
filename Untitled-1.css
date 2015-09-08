@@ -105,5 +105,5 @@ background-size: 18%;
 }
 
 .stripe{
-    background-image: url(stripe.png)
+    background-image: url("stripe.png")
 }
