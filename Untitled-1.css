@@ -1,7 +1,7 @@
 .windows{
     background-image:url("windowtrans.png");
     background-repeat: repeat;
-background-size: 18%;
+background-size: 30%;
 }
 
 .center {
@@ -16,10 +16,10 @@ background-size: 18%;
     padding: 10px 25px 5px 25px;
     border: 0 none;
     color:white;
-    background-color:black;
+    background-color:gray;
 }
  
-.btn:focus, .btn:active:focus, .btn.active:focus .btn:hover{
+.btn:focus, .btn.active, .btn.active:focus,.btn:hover,.open > .dropdown-toggle.btn-primary{
     outline: 0 none;
     color:white;
     background-color:#D5D5D5;
@@ -95,7 +95,7 @@ background-size: 18%;
 .transparent {
     background-image: url("blktransp90.png");
     color:white;
-    padding:40px;
+    padding:20px;
 }
     
 .centtext{
@@ -108,4 +108,9 @@ background-size: 18%;
     background-image: url("stripe.png")
 }
 
-.bottom{position:fixed;bottom:0;margin:0 66% 10px 10px;}
+.bottom{position:fixed;bottom:0;margin:0 30% 0 5%;-webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;}
