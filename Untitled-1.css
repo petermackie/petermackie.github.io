@@ -103,3 +103,7 @@ background-size: 18%;
   vertical-align: middle;
   line-height: normal;      
 }
+
+.stripe{
+    background-image: url(stripe.png)
+}
