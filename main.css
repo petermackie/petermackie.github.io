@@ -1,0 +1,27 @@
+html{font-family: "nimbus-sans",sans-serif;}
+
+.museo{font-family: "museo-slab", serif;font-size: 4pc;font-weight: 700;}
+
+.center {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+}
+
+.dropdown-center {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.foot{padding: .5em;color: white;text-align: center;font-size: 9pt;}
+
+#footer{position: absolute;bottom: 0;width: 100%;background-image: url(images/blktransp90.png)}
+
+#logo{position: absolute;bottom:0;height: 10%;color:white;padding: 5px;}
+
+.stripe{background-image: url(images/stripe.png);background-repeat: repeat}
+
