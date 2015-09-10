@@ -24,7 +24,7 @@ html{font-family: "nimbus-sans",sans-serif;}
 #logo{position: fixed;bottom:0;height:8%;width: auto;padding: 5px;float: left;}
 .logo{height:100%;width:auto;float: left;}
 
-.stripe{background-image: url(images/stripe.png);background-repeat: repeat}
+.stripe{/*background-image: url(images/stripe.png);*/background-repeat: repeat;background-color:black;}
 
 #container{width: 80%;margin-top: 20px}
 
