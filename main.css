@@ -21,7 +21,11 @@ html{font-family: "nimbus-sans",sans-serif;}
 
 #footer{position: absolute;bottom: 0;width: 100%;background-image: url(images/blktransp90.png)}
 
-#logo{position: absolute;bottom:0;height: 10%;color:white;padding: 5px;}
+#logo{position: fixed;bottom:0;height:8%;width: auto;padding: 5px;float: left;}
+.logo{height:100%;width:auto;float: left;}
 
 .stripe{background-image: url(images/stripe.png);background-repeat: repeat}
 
+#container{width: 80%;margin-top: 20px}
+
+ul li h4{margin-bottom:-2px;}
