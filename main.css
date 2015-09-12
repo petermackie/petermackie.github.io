@@ -1,31 +1,30 @@
-html{font-family: "nimbus-sans",sans-serif;}
-
-.museo{font-family: "museo-slab", serif;font-size: 4pc;font-weight: 700;}
+body{font-family: "Bitter", serif;}
 
 .center {
-  transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 20px;
+  transform: translate(-50%, -50%);
 }
 
-.dropdown-center {
-  left: 50%;
-  right: auto;
-  text-align: center;
-  transform: translate(-50%, 0);
+.raleway-4{font-family: "raleway", serif;font-size: 4pc;font-weight: 800;}
+
+.raleway-2{font-family: "raleway", serif;font-size: 2pc;font-weight: 800;}
+
+.stripe{background-image: url(images/stripe.png);background-repeat: repeat;}
+
+.wbg{background-color:white;}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
 
-.foot{padding: .5em;color: white;text-align: center;font-size: 9pt;}
+.nostyle{list-style: none;}
 
-#footer{position: absolute;bottom: 0;width: 100%;background-image: url(images/blktransp90.png)}
+.con{margin-top:5%;margin-bottom: 5%;padding: 5px}
 
-#logo{position: fixed;bottom:0;height:8%;width: auto;padding: 5px;float: left;}
-.logo{height:100%;width:auto;float: left;}
-
-.stripe{/*background-image: url(images/stripe.png);*/background-repeat: repeat;background-color:black;}
-
-#container{width: 80%;margin-top: 20px}
-
-ul li h4{margin-bottom:-2px;}
+.newclass{display:block; margin: 0 auto;}
